@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "perplayerhardcore",
+  "version": "${version}",
+  "name": "Per Player Hardcore",
+  "description": "Put specific players into a hardcore-like mode with lives, custom death behavior (worldspawn or spectator), and optional custom respawn points.",
+  "authors": [
+    "Jahus"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/perplayerhardcore/icon.png",
+  "environment": "server",
+  "entrypoints": {
+    "main": [
+      "net.jahus.perplayerhardcore.PerPlayerHardcore"
+    ]
+  },
+  "mixins": [
+    "perplayerhardcore.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
