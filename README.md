@@ -1,6 +1,9 @@
 # Per Player Hardcore
 A lightweight **server-side only** Fabric mod for Minecraft that lets you put specific players into a hardcore-like mode.
 
+[![Modrinth](https://img.shields.io/modrinth/dt/jahus-per-player-hardcore?logo=modrinth&label=Modrinth)](https://modrinth.com/mod/jahus-per-player-hardcore)
+[![CurseForge](https://img.shields.io/curseforge/dt/1750804?logo=curseforge&label=CurseForge)](https://www.curseforge.com/projects/1750804)
+
 ## Features
 - Track individual players with a limited number of lives
 - On final death:
